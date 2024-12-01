@@ -1,15 +1,17 @@
 :root {
-    --background-color: rgb(135, 206, 235);
+background-color: rgb(135, 206, 235);
 }
-
+/* .first-p{
+ background-color: black;
+    color: white;
+} */
 page {
     background-color: var(--background-color);
     padding: 20px;
 }
 
 article {
-    background-color: black;
-    color: white;
+   
 }
 
 article :first-child {
@@ -19,16 +21,21 @@ article :first-child {
 
 article :nth-child(2) {
     background-color: transparent;
-    color: white;
+    color: normal;
+}
+
+article :nth-child(3) {
+    background-color: transparent;
+    color: normal;
 }
 
 article :last-child {
-    background-color: black;
+    background-color: normal;
     color: red;
 }
 
 ul {
-    list-style: none;
+    list-style: pointer;
     padding: 0;
     margin: 0;
 }
